@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Sheet</title>
+    <link rel="stylesheet" href="sidehustle.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <section id="sidebar">
+            <div class="row">
+              <div class="column">
+                <img src="odin-lined.png">
+              </div>
+              <div class="column">
+                <p id="logo">ODIN</p>
+              </div>
+             </div>
+        </section>
+        <section>
+            <div>
+                <h3>Odin Online Service</h3>
+            <p>You know you need something like this in your life to help you realize your deepest dreams.</p><br>
+            <p>Sign up now to get started.</p>
+            </div>
+            <div>
+                <form>
+                    <fieldset>
+                        <legend>Sign up here!</legend>
+                        <table>
+                            <tr>
+                                <td>FIRST NAME</td>
+                                <td>LAST NAME</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="text" required>
+                                </td>
+                                <td>
+                                    <input type="text" required>
+                                </td>
+                            </tr><br>
+                            <tr>
+                                <td>EMAIL</td>
+                                <td>PHONE NUMBER</td>
+                            </tr>
+                            <tr>
+                               <td>
+                                <input type="email" required>
+                            </td>
+                            <td>
+                                <input type="tel" minlength="8" maxlength="10" required>
+                            </td>
+                            </tr><br>
+                            <tr>
+                                <td>PASSWORD</td>
+                                <td>CONFIRM PASSWORD</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="password" pattern="[0-9(3)-[0-9](2)-[0-9](3)" class="error" required>
+                                </td>
+                                <td>
+                                    <input type="password" pattern="[0-9(3)-[0-9](2)-[0-9](3)" title="passwords must match" class="error" arequired>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </div>
+        <div class="button">
+            <button>Create Account</button>
+            <p>Already have an account?<a href="">Log In</a></p>
+        </div>
+    </section>
+    </main>
+</body>
+</html>

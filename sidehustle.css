@@ -1,0 +1,50 @@
+button {
+    background-color: #596d48;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    width: 180px;
+}
+
+img {
+    height: 20%;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    background-image: url(halie-west-25xggax4bSA-unsplash.jpg);
+    height: 100%;
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,.5);
+    align-items: center;
+}
+
+#logo {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+input {
+    border-color: #e5e7eb;
+}
+
+fieldset {
+    border-color: #e5e7eb;
+}
+
+main {
+    display: flex;
+    width: 50%;
+}
+
+
+.button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
